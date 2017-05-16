@@ -1,5 +1,5 @@
-# usc-its.github.io
+# uscdev.github.io
 
-https://usc-its.github.io/
+https://uscdev.github.io/
 
 USC-ITS Unofficial Public Technology Resources Web Site
