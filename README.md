@@ -2,4 +2,8 @@
 
 https://uscdev.github.io/
 
-USC-ITS Unofficial Public Technology Resources Web Site
+USC-ITS Public Technology Resources
+
+###Learning Docker
+
+1. Create AWS Docker Swarm
