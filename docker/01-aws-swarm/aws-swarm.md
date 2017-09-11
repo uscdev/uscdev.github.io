@@ -33,8 +33,12 @@ Defaults for all fields, except:
         1. Note the Public DNS: **ec2-xx-xx-xx-xx.us-west-2.compute.amazonaws.com**.
         This will be your management server (port 22)
         and your base URL (port 80/443).
-
-You now have a Docker Swarm on AWS.
+        You now have a Docker Swarm on AWS.
+7. Set up an ssh tunnel to send docker commands to the Swarm
+    1. Instructions are here:
+[https://github.com/uscdev/ssh-pipe](https://github.com/uscdev/ssh-pipe)
+    2. Test your pipe with a docker command such as:
+    **docker service ls**
 
 **Note: Remember to delete your swarm when you are done using
 it.**
