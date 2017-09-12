@@ -28,12 +28,17 @@ Defaults for all fields, except:
     1. Acknowledge - Check
     2. 'Create'
     3. Wait about 10 minutes for 'CREATE_COMPLETE' message
-6. In AWS go to the EC2 -> Running instances display screen
-    1. Find a manager instance for your swarm: name docker-yourname-Manager
+6. In AWS go to the EC2 menu item
+    1. Under the running instances display screen
+    find a manager instance for your swarm:
+    name docker-yourname-Manager
         1. Note the Public DNS: **ec2-xx-xx-xx-xx.us-west-2.compute.amazonaws.com**.
         This will be your management server (port 22)
-        and your base URL (port 80/443).
-        You now have a Docker Swarm on AWS.
+    2. Under the Load Balancers item, 
+    find the DNS of your load balancer (Should start with docker-yourna..).
+        This is your base URL (port 80/443).
+        
+        **You now have a Docker Swarm on AWS.**
 7. Set up an ssh tunnel to send docker commands to the Swarm
     1. Instructions are here:
 [https://github.com/uscdev/ssh-pipe](https://github.com/uscdev/ssh-pipe)
